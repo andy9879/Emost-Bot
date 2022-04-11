@@ -59,6 +59,7 @@ class VoiceRecognitionService
             this.startBumblebee(voiceReceiverStream);
         })
         this._bumblebee.start({stream: voiceReceiverStream});
+        this._bumblebee.setSensitivity(1);
     }
 
     startStream()
