@@ -29,9 +29,6 @@ Emost-Bot is a music bot for discord using only voice commands. It will listen t
 * More commands
 * Faster and offline speech to text 
 
-# What will not be implemented
-* Text Commands associated audio interaction
-
 # Hosting your own voice recognition bot
 Requirements:
 * Google's Speech to Text API key
@@ -57,13 +54,4 @@ Requirements:
 
 **Have only tested on Linux, no idea if it will work on Windows or Mac due to some dependencies not working on those platforms.**
 
-# Concerns with recording
-The bot will record audio of the person typing !connect for hotword and speech detection purposes. The bot itself does not collect any data but uses Picovoice's Porcupine wake word engine and Google's Speech to Text API w/o Data Logging. 
 
-If you are not comfortable with what the bot is doing, please use !disconnect. 
-
-This only applies to Emost-Bot, any other bot with similar features may be collecting data that I have no control of.
-
-If you would like to view the source code, here is the repository link: https://github.com/stetr/emost-bot
-
-*Copy pasted from config.json*
