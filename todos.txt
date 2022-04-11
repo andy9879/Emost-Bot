@@ -2,7 +2,10 @@
 * Use !listen <@id> to set who to listen to
 * add more audio player commands (e.g. pause, skip, add, etc.)
 * radio mode - have the audio streamers linked amongst different servers
-
+* set offline speach to text
+* change hot word
+* add text commands
+* make savable playlists
 ----REQUIREMENTS----
 *
 
