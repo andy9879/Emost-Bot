@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd src && export GOOGLE_APPLICATION_CREDENTIALS=\"../config/google_speech.json\" && node bot.js"
+    "start": "cd ./src && export GOOGLE_APPLICATION_CREDENTIALS=\"../config/google_speech.json\" && ts-node ./bot.ts"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,8 @@
     "dotenv": "^8.2.0",
     "fluent-ffmpeg": "^2.1.2",
     "nan": "^2.14.1",
+    "node-ts": "^5.1.2",
+    "ts-node": "^10.7.0",
     "yt-search": "^2.2.0",
     "ytdl-core": "^3.2.1",
     "ytdl-core-discord": "^1.2.1"
